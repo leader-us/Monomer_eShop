@@ -2,12 +2,12 @@ spring:
   application:
     name: mono-eshop
   redis:
-    host: 192.168.18.134
+    host: 192.168.137.15
     port: 6379
     #password:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql://192.168.18.134:3306/HPE_APP?useSSL=false
+    url: jdbc:mysql://192.168.137.15:3306/HPE_APP?useSSL=false
     username: lession
     password: mypass
     driver-class-name: com.mysql.jdbc.Driver
